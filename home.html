@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="library/js/custom.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Zepto clone</title>
+  </head>
+  <body class="border">
+    <!-- header section start -->
+    <header>
+      <div class="header-bg-color">
+        <img src="image/logo.svg" class="img"/>
+        <span class="verticle-bar"></span>
+        <p>Mangalore</p>
+        <img
+          src="image/toppng.com-white-drop-down-arrow-423x265.png"
+          class="location-dropdown-menu"
+        />
+
+        <div class="product-search-input-wrapper">
+          <input type="text" placeholder="search for over 5000 products" />
+        </div>
+
+        <a href="#">Login</a>
+        <button type="button" class="mycart">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.70591 12.5294L8.70591 8.76472C8.70591 6.68553 10.3914 5.00001 12.4706 5.00001V5.00001C14.5498 5.00001 16.2353 6.68553 16.2353 8.76472L16.2353 12.5294"
+              stroke="white"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            ></path>
+            <path
+              d="M4.6535 13.1579C4.79005 11.5194 4.85832 10.7001 5.39863 10.203C5.93895 9.70581 6.76103 9.70581 8.40521 9.70581H16.536C18.1801 9.70581 19.0022 9.70581 19.5425 10.203C20.0829 10.7001 20.1511 11.5194 20.2877 13.1579L20.7713 18.9613C20.8508 19.9152 20.8905 20.3921 20.6109 20.696C20.3313 20.9999 19.8527 20.9999 18.8954 20.9999H6.04574C5.08851 20.9999 4.6099 20.9999 4.33028 20.696C4.05065 20.3921 4.0904 19.9152 4.16989 18.9613L4.6535 13.1579Z"
+              stroke="white"
+              stroke-width="1.8"
+            ></path>
+          </svg>
+          <span>My Cart</span>
+        </button>
+      </div>
+    </header>
+    <!-- header section ends -->
+
+    <img src="image/deliver-image.jpg" class="delivery-in-minutes" />
+
+    <div class="whole-div">
+
+    <div class="pan-corner-banner">
+      <a href="#">
+        <img src="image/paan-corner-banner-desktop.png" />
+      </a>
+    </div>
+
+    <div class="banner-container">
+      <div class="banner-slider">
+        <img
+          src="image/53096745-a02c-4892-9786-27274d9bc57a-Banner_Carousel_2.0.png"
+          class="banner1"
+        />
+        <img
+          src="image/026fab08-9b96-4af4-9d4d-8b1611e4d5fe.webp"
+          class="banner2"
+        />
+
+        <img
+          src="image/cb9a6b17-f1ea-4f2e-9cf3-f8f8ff7c1acd-V2_BannerCarouse.png"
+          class="banner6"
+        />
+        <img
+          src="image/cde40d49-9c9a-43c0-a7d0-918e8a264c52-Banner-carousel_2.0.webp"
+          class="banner7"
+        />
+        <img
+          src="image/54c45536-0195-49a8-bfa3-b9ef697c4ec1.webp"
+          class="banner8"
+        />
+      </div>
+    </div>
+
+    <div class="slider-button">
+      <button class="button-left-icon">
+        <img src="image/left-arrow-primary.svg" />
+      </button>
+      <button class="button-right-icon">
+        <img src="image/right-arrow.svg" />
+      </button>
+    </div>
+
+    <div class="favourite-picks">
+      <div class="text">
+        <p>Your Favourite Picks</p>
+        <button type="button" class="favourite-picks-button">
+          See All <img src="image/right-arrow.svg" />
+        </button>
+      </div>
+
+      <div class="image-card">
+        <!-- image1 start-->
+
+        <div class="img-card1">
+          <img
+            src="image/0cfdcd21-abb4-4151-bd80-f833942fa524-1c-asPaKjVXuEjYooQIalFttysyvbCtdA.jpeg"
+            class="img1"
+          />
+          <h4>Nanidini Standardized Fresh Milk(Pouch)</h4>
+          <span><h3>500ml</h3></span>
+
+          <div class="pr-amt-and-button">
+            <h4>&#8377;25</h4>
+            <div class="pr-button">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+        <!-- image1 end-->
+
+        <!-- image2  start-->
+        <div class="img-card1">
+          <img
+            src="image/25eb526c-9c26-48cd-95a3-8e4058910f8a-1qr-g2BjKO0dwcUclzzYCwcyevavAX1FA.jpeg"
+            class="img2"
+          />
+          <h4>Nandini Fresh Toned Fresh Milk (Pouch)</h4>
+          <span><h3>500ml</h3></span>
+
+          <div class="pr-amt-and-button2">
+            <h4>&#8377;25</h4>
+            <div class="pr-button2">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+        <!-- image2 end-->
+
+        <!-- image3  start-->
+        <div class="img-card1">
+          <img
+            src="image/84da30f9-0dc2-4c1a-9b25-7df2f077254d-coriander_leaves.jpg"
+            class="img3"
+          />
+          <h4>Coriander Leaves</h4>
+          <span><h3>100g</h3></span>
+
+          <div class="pr-amt-and-button3">
+            <h4>&#8377;25</h4>
+            <div class="pr-button3">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+        <!-- image3 end-->
+
+        <div class="img-card1">
+          <img
+            src="image/fdf82a8b-a576-417f-b6df-a40d37e25634-17XQOV4jigZDyvyTYLzqm3Td-qPWot1aB.webp"
+            class="img4"
+          />
+          <h4>Heritage Toned Fresh Milk (Pouch)</h4>
+          <span><h3>500ml</h3></span>
+
+          <div class="pr-amt-and-button4">
+            <h4>&#8377;25</h4>
+            <div class="pr-button4">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="img-card1">
+          <img
+            src="image/f05fb698-1b4a-4c68-a16a-1dbc018ccb0c-1vMzYn5qqO8eRf-SlRU6KSp11rFFt7ReY.jpeg"
+            class="img5"
+          />
+          <h4>Nandini Thick Curd Pouch</h4>
+          <span><h3>500ml</h3></span>
+
+          <div class="pr-amt-and-button5">
+            <h4>&#8377;25</h4>
+            <div class="pr-button5">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="img-card1">
+          <img
+            src="image/1d5dfa68-981a-479e-ba57-4b51eda333eb-shutterstock_769886404.jpg"
+            class="img6"
+          />
+          <h4>Onion</h4>
+          <span><h3>1kg</h3></span>
+
+          <div class="pr-amt-and-button6">
+            <h4>&#8377;25</h4>
+            <div class="pr-button6">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="img-card1">
+          <img
+            src="image/b01c94d5-7fa9-4119-b157-5e401def1280-1ZmSDxPp8ySQnC8pcdpAhEMJ8FYloUgux.jpeg"
+            class="img7"
+          />
+          <h4>Nandini Goodlife Toned Milk (Pouch)</h4>
+          <span><h3>500ml</h3></span>
+
+          <div class="pr-amt-and-button7">
+            <h4>&#8377;25</h4>
+            <div class="pr-button7">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="img-card1">
+          <img
+            src="image/0d8e8c5a-05dc-4833-beaa-18d8a965e31b-potato-1-kg-product-images-o590000090-p590000090-0-202207291750.jpg"
+            class="img8"
+          />
+          <h4>Potato</h4>
+          <span><h3>1kg</h3></span>
+
+          <div class="pr-amt-and-button8">
+            <h4>&#8377;25</h4>
+            <div class="pr-button8">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="img-card1">
+          <img
+            src="image/ffa11209-9d10-4dcb-80a6-2c9b587415a9-image_file.jpeg"
+            class="img9"
+          />
+          <h4>Chilli Green</h4>
+          <span><h3>100g</h3></span>
+
+          <div class="pr-amt-and-button9">
+            <h4>&#8377;25</h4>
+            <div class="pr-button9">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="img-card1">
+          <img
+            src="image/ee404c00-f64a-4e6f-82ed-41181e41877b-Inkedth_bb.webp"
+            class="img10"
+          />
+          <h4>Tomato Hybrid</h4>
+          <span><h3>1kg</h3></span>
+
+          <div class="pr-amt-and-button10">
+            <h4>&#8377;25</h4>
+            <div class="pr-button10">
+              <button type="button">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Favourite-picks-button-right-left-slider start-->
+    <div class="slider-button-for-favorite-pick">
+      <button class="button-left-icon-for-favourite-pick">
+        <img src="image/left-arrow-primary.svg" />
+      </button>
+      <button class="button-right-icon-for-favourite-pick">
+        <img src="image/right-arrow.svg" />
+      </button>
+    </div>
+    <!-- Favourite-picks-button-right-left-slider end-->
+
+    <!-- Explore by categories start-->
+    <div class="explore-by-categories">
+      <div class="text">
+        <p>Explore By Categories</p>
+        <button type="button" class="favourite-picks-button">
+          See All <img src="image/right-arrow.svg" />
+        </button>
+      </div>
+
+      <div class="explore-by-category-image-card">
+        <!-- 1st row start -->
+
+        <div class="explore-by-categories-img-card1">
+          <img
+            src="image/explore-by-category/4529e4a6-53c8-47c0-9386-bf6da3bbc2d6.png"
+            class="img1"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/9ab5de50-8c4f-4491-8352-763a8337b59cAttaRiceOilDals.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/c552971e-93bd-4698-b9f4-0ad99004802dMasalaDryFruits.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/2ed986f5-3c3f-448f-8163-1c5e7f5c8489Sweet Cravings-2.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/cc40d740-723c-495f-a82b-06458155b717FrozenFoodIceCreams.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/23b416d5-cf37-4c59-b889-54d1b5e57fcaPackagedFood.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/3a529c63-cc24-428b-b7ee-7977fa4dad0bDairyBreadEggs.png"
+            class="img2"
+          />
+        </div>
+        <!-- 1st row end -->
+
+        <!-- 2nd row -->
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/a79c7e1c-030a-4183-8b7b-f6487f55b80fColdDrinksJuices.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/00494b34-e238-4a01-b54d-7c87121f5d7cMunchiesChips.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/f14ed279-f310-433e-8cec-642cc948f7bdMeatsFishEggs.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/5bab6832-2fa9-476c-96c3-6cfd7a77ce15BreakfastSauces.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/f8999507-3770-4d0a-825d-559f0a59bbfaTeaCoffeeMore.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/21148572-f640-4a77-84d4-27fcf58e1b60.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/f2f683cc-a6f1-4001-9fd7-13bfc8e825a4.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/69f9d7dc-5fbb-43b1-adee-a14bf95693f3.png"
+            class="img2"
+          />
+        </div>
+
+        <!-- 2nd row -->
+
+        <!-- 3rd row start -->
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/519160e4-e9da-43a5-87b5-bede663dbbbcCleaningEssentials.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/5ef6bf67-5482-4d08-8ed3-d669ff353613HomeNeeds.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/15f38050-51d2-440c-9b16-8964a166a11cElectricalsAccessories.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/307bd8ef-bc5e-432f-9354-61f4ec2bcdf9.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/007917c6-d7ab-49e7-bd6b-7a0719122a6d.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/bd2abccb-0c92-4ed5-a087-218e9412cd19.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/a7c4248c-cc67-4e04-887f-3dceacf09b42PetCare.png"
+            class="img2"
+          />
+        </div>
+
+        <div class="explore-by-categories-img-card2">
+          <img
+            src="image/explore-by-category/19d1efee-a49d-49bc-9be0-832f990c8439PaanCorner.png"
+            class="img2"
+          />
+        </div>
+        <!-- 3rd row end -->
+      </div>
+    </div>
+    <!-- Explore by categories end-->
+
+
+    <!-- explore-new-categories start-->
+    <div class="explore-new-categories">
+      <div class="text">
+        <p>Explore new categories</p>
+      </div>
+
+      <div class="explore-new-categories-image-card">
+       
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/gift-score.png"
+            class="img1"
+          />
+        </div>
+      
+
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/4de9f251-1aea-4f37-8547-24d344b8cbae-Baby_Care.png"
+            class="img1"
+          />
+        </div>
+    
+
+       
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/ae75eb31-584f-4d75-8d43-66713d0f363c-Homegrown_Brands.png"
+            class="img1"
+          />
+        </div>
+
+        
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/1df5d6da-214e-4085-92ba-5ea975265ddf-Party_Essentials.png"
+            class="img1"
+          />
+        </div>
+
+        
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/b8c20a75-7e81-4c93-842a-bf2704774b7e-Kitchen__needs.png"
+            class="img1"
+          />
+        </div>
+
+       
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/4a391339-11df-4ce8-86b7-d91503352189-Organic_Food.png"
+            class="img1"
+          />
+        </div>
+
+       
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/c40d9a8d-27ad-4a41-9f3d-6aff369117fa-Fitness_&_Sports.png"
+            class="img1"
+          />
+        </div>
+
+        
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/4632ceb5-9555-4107-8486-8ac5f138198d-Pet__Care.png"
+            class="img1"
+          />
+        </div>
+
+  
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/a25abda1-4565-4a28-9b47-9a48561d48bb-Makeup_&_Beauty.png"
+            class="img1"
+          />
+        </div>
+
+        
+        <div class="explore-new-categories-img-card1">
+          <img
+            src="image/explore-new-category/f14ed279-f310-433e-8cec-642cc948f7bdMeatsFishEggs.png"
+            class="img1"
+          />
+        </div>
+      </div>
+
+    </div>
+
+    <!-- explore-new-categories end-->
+
+
+     <!-- explore-new-categories button-right-left-slider start-->
+     <div class="slider-button-for-explore-new-categories">
+      <button class="button-left-icon-for-explore-new-categories">
+        <img src="image/left-arrow-primary.svg" />
+      </button>
+      <button class="button-right-icon-for-explore-new-categories">
+        <img src="image/right-arrow.svg" />
+      </button>
+    </div>
+       <!-- explore-new-categories button-right-left-slider end-->
+
+
+      
+       <div class="offer-and-best-deals">
+        <!-- <div class="offer-and-best-deals-img"> -->
+          <img
+            src="image/e5d38a4a-9085-4446-bf28-0f8965ab949c-Multiple_thin_Make_heads_turn_(2).webp"
+            class="banner1"
+          />
+          <img
+            src="image/c05d1dae-2adf-4b6e-9c1d-ac2e29c2c339-Multiple_thin-New_UI.webp"
+            class="banner2"
+          />
+        <!-- </div> -->
+      </div>
+
+
+
+
+
+      <div class="brand-in-focus">
+        <div class="text">
+          <p>Brand In Focus</p>
+        </div>
+  
+        <div class="brand-in-focus-card">
+         
+          <div class="brand-in-focus-img-card">
+            <img
+              src="image/e50a31bd-d3f0-4c45-ac10-5b4918a18172-Brand_Card_The_coffee_that_india_loves.webp"
+              class="img1"
+            />
+          </div>
+        
+  
+          <div class="brand-in-focus-img-card">
+            <img
+            src="image/e656bc3d-9339-466f-9ec5-3fffbce6412b-Brand_Card_Exotic_range_of_premiu.webp"
+            class="img1"
+          />
+          </div>
+
+          <div class="brand-in-focus-img-card">
+            <img
+              src="image/6d340ee6-5f62-4469-9d78-53a025faadbf.webp"
+              class="img1"
+            />
+          </div>
+              
+        </div>
+  
+      </div>
+
+
+      <div class="check-this-out">
+        <div class="text">
+          <p>Check This Out</p>
+        </div>
+         
+        <div class="check-this-out-card">
+          <div class="check-this-out-card-img1">
+            <img
+              src="image/check-this-out/d32c2eec-7388-4b02-b030-425c17b2843a.webp"
+              class="img1"
+            />
+          </div>
+
+
+          <div class="check-this-out-card-img2">
+            <img
+              src="image/check-this-out/b71c2c12-39c7-4da9-a89f-fb9440e1334f.webp"
+              class="img1"
+            />
+          </div>
+
+          <div class="check-this-out-card-img2">
+            <img
+              src="image/check-this-out/216e2dfd-e6b1-4783-a6d0-eff96a94abee.webp"
+              class="img1"
+            />
+          </div>
+        </div>
+    
+      </div>
+
+ <!-- curated-for-you-section start-->
+ <div class="curated-new-category">
+  <div class="text">
+    <p>Curated For You</p>
+  </div>
+
+  <div class="curated-new-category-image-card">
+   
+    <div class="curated-new-category-img-card1">
+      <img
+        src="image/curated/8fbb4703-a3b4-452c-87a5-286b54dcf2b2.webp"
+        class="img1"
+      />
+    </div>
+  
+
+    <div class="curated-new-category-img-card1">
+      <img
+        src="image/curated/56822c16-8f47-4017-b8a4-de68d6fa9044-Brand_Tiles_Skin_care_goodies.webp"
+        class="img1"
+      />
+    </div>
+
+
+    <div class="curated-new-category-img-card1">
+      <img
+        src="image/curated/2ec04add-86a5-44da-8006-f7676469179a-Brand_Tiles_Smoothies_&_shakes.webp"
+        class="img1"
+      />
+    </div>
+
+    
+    <div class="curated-new-category-img-card1">
+      <img
+        src="image/curated/682eaf95-f6d1-4e5a-adf6-b7a67d44218d-Brand_tile_(1).webp"
+        class="img1"
+      />
+    </div>
+
+    
+    <div class="curated-new-category-img-card1">
+      <img
+        src="image/curated/7a863b51-d36c-4e2c-9bd3-1c51589013d9-Brand_Tiles_Parantha_veggies.webp"
+        class="img1"
+      />
+    </div>
+
+   
+    <div class="curated-new-category-img-card1">
+      <img
+        src="image/curated/1cbd4aa1-9ec4-4328-984c-f9f890271a3a-Brand_Tiles_Health_care_(1).webp"
+        class="img1"
+      />
+    </div>
+
+   
+    <div class="curated-new-category-img-card1">
+      <img
+        src="image/curated/40670bb0-be59-4a44-bde8-50b721f2e109.webp"
+        class="img1"
+      />
+    </div>
+
+    
+    <div class="curated-new-category-img-card1">
+      <img
+        src="image/curated/23892143-256c-499f-9e84-5e033685beab.webp"
+        class="img1"
+      />
+    </div>
+
+  </div>
+
+</div>
+
+<!-- curated-for-you-section end-->
+
+
+ <!-- curated-for-you-section button-right-left-slider start-->
+ <div class="slider-button-for-curated-new-category">
+  <button class="button-left-icon-for-curated-new-category">
+    <img src="image/left-arrow-primary.svg" />
+  </button>
+  <button class="button-right-icon-for-curated-new-category">
+    <img src="image/right-arrow.svg" />
+  </button>
+</div>
+   <!-- curated-for-you-section button-right-left-slider end-->
+    
+ 
+    </div> <!--whole div-->
+  </body>
+</html>
